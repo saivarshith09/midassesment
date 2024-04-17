@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leh Ladakh</title>
+  <meta name="description" content="Embark on a mesmerizing journey through the rugged beauty of Leh Ladakh, where every twist and turn unveils a new adventure.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
+    .header h1 {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    .search-bar {
+      margin-top: 20px;
+    }
+    .main-content {
+      padding: 40px 0;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #343a40;
+    }
+    .section-content {
+      font-size: 18px;
+    }
+    .content-panel {
+      margin-top: 40px;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .content-panel img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .aside {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .aside h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 0;
+    }
+    .aside p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header text-center">
+  <div class="container">
+    <h1>A Trip to Leh Ladhak </h1>
+  </div>
+</header>
+
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <section>
+          <h2 class="section-title">About   </h2>
+          <p class="section-content">The Ladakh capital city of Leh lies near the eastern parts of Jammu and Kashmir, on the crossroads of the historic "Silk Route" from Sinkiang to West Asia and to the plains of India. The humbling monasteries of Shey, Hemis, Alchi, Thikse and Lamayuru will nurture your spiritual needs, and the landscape of Leh provides for a number of adventure activities including mountaineering, white-water rafting and trekking along the Markha Valley.</p>
+        </section>
+      </div>
+      <div class="col-md-6">
+        <section>
+          <h2 class="section-title">Things To Go</h2>
+          <ul class="section-content" id="technologyList">
+            <li><a href="https://en.wikipedia.org/wiki/Pangong_Tso" onclick="showTechnologyInfo('Hypersonic Missiles')">Pangong Lake</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Magnetic_Hill_(India)" onclick="showTechnologyInfo('Directed Energy Weapons (DEWs)')">Magnetic Hills</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Nubra" onclick="showTechnologyInfo('Unmanned Aerial Vehicles (UAVs)')">Nubra valley</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Tso_Moriri" onclick="showTechnologyInfo('Stealth Aircraft')">Tsu Moriri Lake</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Diskit_Monastery" onclick="showTechnologyInfo('Railguns')">Diskit Gompa</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Shanti_Stupa,_Ladakh" onclick="showTechnologyInfo('Cyber Weapons')">Shanti Stupa</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kargil" onclick="showTechnologyInfo('Autonomous Weapons Systems')">Kargil</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Leh_Palace" onclick="showTechnologyInfo('Electromagnetic Pulse (EMP) Weapons')">Royal Leh Palace</a></li>
+          </ul>
+          <p class="section-content">Explore the breathtaking landscapes and vibrant culture of Leh Ladakh, with serene rivers, mesmerizing attractions like Khardung La Pass and Magnetic Hill, adventure activities, and local culinary delights adding to the allure of this Himalayan paradise.
+
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Content Panel -->
+    <div class="row">
+      <div class="col">
+        <div class="content-panel">
+          <h2 class="section-title">Additional Information</h2>
+          <div id="additionalInfo" style="display: none;">
+            <div id="technologyInfo" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="B-2 Spirit Bomber.jpeg" class="d-block w
