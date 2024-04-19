@@ -1,0 +1,119 @@
+body {
+     background-color: #f5f5f5;
+     margin-left: 150px;
+     margin-right: 150px;
+     margin-top: 50px;
+    
+}
+
+h1{
+    margin-left:30px;
+    margin-top:30px;
+    vertical-align:middle;
+}
+p{
+    line-height:1.5;
+    margin:30px 30px 30px 30px;
+    font-size:20px;
+    font-family: "Times New Roman", Times, serif;
+}
+img{
+    margin-left:30px;
+    margin-right:100px;
+    width:150px;
+    height:150px;
+}
+.frame1{
+    background-color: white;
+    height:700px;
+    margin-bottom: 100px;
+}
+.frame1 .frame1_head{
+    background-color: #d9d9d9;
+    height:50%;
+    text-align:center;
+    font-family:"Joti One";
+    margin-top:100px;
+}
+.frame1 .frame1_about{
+    background-color: white;
+    height:50%;
+}
+
+.frame2{
+    background-color: white;
+    height:600px;
+}
+.frame2_div1{
+    display:flex;
+    width:50%;
+}
+.frame2 .frame2_div1 .frame2_img{
+    width:50%;
+}
+
+
+.frame3{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame4{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame5{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame6{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame7{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame8{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame9{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+.frame10{
+    background-color: white;
+    height:500px;
+    width:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
